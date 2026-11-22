@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Purple Hippo Arcade</title>
-<meta name="description" content="A Muncie-related vibe coding playground: Muncie Hippo: Purple Reign, Muncie Hippo Hole Patrol, Muncie Hippo: Match Game and Genesis GP.">
+<meta name="description" content="A Muncie-related vibe coding playground: Muncie Hippo: Purple Reign, Muncie Hippo Hole Patrol, Muncie Hippo: Match Game, Hoosier Jam (work in progress) and Genesis GP.">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><rect width='16' height='16' rx='3' fill='%237b3fd0'/><circle cx='5' cy='6' r='1.5' fill='%23fff'/><circle cx='11' cy='6' r='1.5' fill='%23fff'/><rect x='4' y='10' width='8' height='2' fill='%23fff'/></svg>">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap" rel="stylesheet">
@@ -54,6 +54,10 @@
     background:var(--accent); color:#120822; border-radius:3px;
   }
   .card:hover .play{animation:blink .6s steps(2) infinite}
+  .wip{position:absolute; top:8px; left:8px; white-space:nowrap;
+    font-family:'Press Start 2P'; font-size:8px; line-height:1.6; padding:4px 7px; background:var(--yellow); color:#120822;
+    border:2px solid #120822; box-shadow:3px 3px 0 #000; letter-spacing:1px}
+  .wipnote{font-size:18px; color:var(--yellow); margin:-6px 0 14px}
   @keyframes blink{50%{opacity:.55}}
 
   footer{text-align:center; margin-top:52px; color:var(--dim); font-size:20px}
@@ -95,6 +99,17 @@
         <h2>MUNCIE HIPPO: MATCH GAME</h2>
         <p>A match-3 puzzler hosted by the purple hippo, with tiles from all over Muncie. Classic, Blitz and Neighborhoods modes.</p>
         <div class="meta">Built for phones &middot; swipe to play</div>
+        <span class="play">PLAY &#9654;</span>
+      </div>
+    </a>
+
+    <a class="card" style="--accent:#ff7a2e" href="https://andyshearsphd.github.io/Hoosier-Jam/">
+      <div class="shot"><img src="img/hoosier-jam.jpg" alt="Hoosier Jam title screen in the Muncie Fieldhouse" loading="lazy"><span class="wip">WORK IN PROGRESS</span></div>
+      <div class="body">
+        <h2>HOOSIER JAM</h2>
+        <p>Two-on-two arcade hoops at the Muncie Sectional, live from the Fieldhouse. Big dunks, red-hot shooting and Hoosier Hysteria.</p>
+        <div class="meta">Built for phones &middot; play in landscape</div>
+        <div class="wipnote">Work in progress: placeholder teams, and the controls, art and balance are still changing.</div>
         <span class="play">PLAY &#9654;</span>
       </div>
     </a>
