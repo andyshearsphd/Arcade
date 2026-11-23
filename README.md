@@ -6,4 +6,5 @@ A Muncie-related vibe coding playground. Live at https://andyshearsphd.github.io
 - [Muncie Hippo Hole Patrol](https://andyshearsphd.github.io/Muncie-Hippo/)
 - [Muncie Hippo: Match Game](https://andyshearsphd.github.io/MuncieMatch/)
 - [Hoosier Jam](https://andyshearsphd.github.io/Hoosier-Jam/) (work in progress)
+- [Muncie Kombat](https://andyshearsphd.github.io/Muncie-Kombat/) (work in progress)
 - [Genesis GP](https://andyshearsphd.github.io/Formula-Genesis/)
